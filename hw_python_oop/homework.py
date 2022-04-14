@@ -86,8 +86,8 @@ class Swimming(Training):
         self.count_pool = count_pool
 
     def get_spent_calories(self) -> float:
-        return ((self.get_mean_speed() + self.COEF_SWIM_1) *
-                self.COEF_SWIM_2 * self.weight)
+        return ((self.get_mean_speed() + self.COEF_SWIM_1) 
+                * self.COEF_SWIM_2 * self.weight)
 
 
 class Running(Training):
