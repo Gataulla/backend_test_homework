@@ -32,8 +32,8 @@ class InfoMessage:
 class Training:
     """Базовый класс тренировки."""
     LEN_STEP: float = 0.65
-    M_IN_KM: float = 1000
     CONVERT_HOURS_MIN: int = 60  # Константа для конвертации ч. в мин.
+    M_IN_KM: float = 1000
 
     def __init__(
         self,
